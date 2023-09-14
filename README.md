@@ -8,9 +8,11 @@ The paper reports my work and experience in predicting the flight ticket price u
 
 Flight price prediction is quite an interesting and challenging problem and it also affects our lives.Predictions hardly depend on single variables and so is it in our case.Our dataset consists of eleven columns.Every feature is essential while predicting the price for example, increase in total number of stops increases our price to a great extent.Below is real time example of same airline same day flight with different number of stops and price almost doubles.
 
-![](media/9f3736dcf4c3ecb14b4b1104a65f46b3.png)
 
-![](media/187172a2e7546511fec0df18188bcba1.png)
+
+
+
+
 
 # **3. Methodology:**
 
