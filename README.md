@@ -8,7 +8,6 @@ The paper reports my work and experience in predicting the flight ticket price u
 
 Flight price prediction is quite an interesting and challenging problem and it also affects our lives.Predictions hardly depend on single variables and so is it in our case.Our dataset consists of eleven columns.Every feature is essential while predicting the price for example, increase in total number of stops increases our price to a great extent.Below is real time example of same airline same day flight with different number of stops and price almost doubles.
 
-![image](https://github.com/wow7seven/Flight-Price-Prediction/assets/100991200/c9d1f437-e6f5-4f5a-9099-df2266255f18)
 ![image](https://github.com/wow7seven/Flight-Price-Prediction/assets/100991200/fd529a7c-4d5b-4826-9739-d774f9e8a3d8)
 
 # **3. Methodology:**
@@ -104,6 +103,6 @@ For Random Forest I varied n_estimators and max_depth.
 
 For LGBM I varied n_estimators, max_depth and learning_rate
 
-![](media/af2bd149da8cd98a73aeceb63ff9bbba.png) ![](media/20374305d381ec0214dc6b8d6a89a2bb.png)
+![image](https://github.com/wow7seven/Flight-Price-Prediction/assets/100991200/430f8cb8-7ba1-45c8-9c8a-d8711a38f7ec)
 
 Hence our best model is **LGBM** parameters with **92.37%(Type 1)** accuracy and Random forest is second best with **90.81%(Type 2)** accuracy.Both consume less time and have good accuracies but LGBM is slightly better and in my opinion the best model for Flight Price Prediction.
